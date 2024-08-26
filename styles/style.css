@@ -215,6 +215,18 @@ ul li a:hover
     }
 }
 
+@media screen and (max-width: 580px) 
+{
+    .nav-btn
+    {
+        width: 80%;
+    }
+    .bars-btn
+    {
+        padding-right: 30px;
+    }
+}
+
 /* Introduction Section */
 
 .intro-section
@@ -470,6 +482,53 @@ ul li a:hover
     .scroll p 
     {
         display: none;
+    }
+    p 
+    {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) 
+{
+    .text-intro h1
+    {
+        font-size: 40px;
+    }
+    .image1-intro  
+    {
+        width: 240px;
+        height: 280px;
+    }
+    .scroll p 
+    {
+        display: none;
+    } 
+    p 
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) 
+{
+    .text-intro h1
+    {
+        font-size: 30px;
+    }
+    .image1-intro  
+    {
+        width: 220px;
+        height: 260px;
+    }
+    .scroll p 
+    {
+        display: none;
+    } 
+    p 
+    {
+        font-size: 8px;
     }
 }
 
@@ -1297,189 +1356,4 @@ ul li a:hover
     }
 }
 
-
-
-
-
-
-
-
-/*
-.carousel 
-{
-    display: block;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.carousel-inner 
-{
-    display: flex;
-    gap: 30px;
-    transition: transform 0.5s ease;
-}
-
-.member 
-{
-    flex: 0 0 33%;
-}
-
-input[name="carousel"] 
-{
-    display: none;
-}
-
-input[name="carousel"]:checked + .carousel-inner 
-{
-    transform: translateX(-100%);
-}
-
-#slide1:checked ~ .carousel-nav label[for="slide1"],
-#slide2:checked ~ .carousel-nav label[for="slide2"]
-{
-    background: #333;
-}
-
-.carousel-nav
-{
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-}
-
-.carousel-nav label 
-{
-    display: block;
-    width: 10px;
-    height: 10px;
-    background: #999;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.carousel-nav label:hover 
-{
-    background: #666;
-}
-*/
-
-
-/* nav
-{
-    background-color: var(--color-2-dark);
-    box-shadow: 0px 3px 5px var(--color-3-light);
-    padding: 0px 15px;
-    margin: 0px auto;
-}
-.nav-center
-{
-    margin: 0px auto;
-}
-
-.nav-header
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
-}
-
-.bars-btn
-{
-    background-color: transparent;
-    color: var(--color-3);
-    border: none;
-    font-size: 30px;
-    transition: transform 0.5s;
-}
-
-
-.bars-btn:hover
-{
-    transform: rotate(90deg);
-    cursor: pointer;
-}
-
-.links
-{
-    margin: 50px 0px;
-    font-size: 20px;
-}
-
-ul
-{
-    padding-left: 0px;
-}
-
-ul li
-{
-    margin: 10px 0px 0px 0px;
-}
-
-ul li a 
-{
-    display: inline-block;
-    padding: 10px 0px;
-}
-
-.nav-btn
-{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: var(--color-1);
-    padding: 15px 30px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    text-decoration: none;
-    color: var(--color-2-dark);
-    font-family: var(--font-1);
-    font-size: larger;
-    font-weight: 500;
-}
-.nav-btn:hover
-{
-    color: var(--color-2-darker);
-    background-color: var(--color-1-light);
-}
-
-@media screen and (min-width: 900px)
-{
-    .bars-btn
-    {
-        display: none;
-    }
-    .nav-center
-    {
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-    }
-    .nav-section
-    {
-        display: flex;
-        flex: 1 1 0%;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-    .links
-    {
-        display: inline-flex;
-        align-items: center;
-        gap: 20px;
-        font-size: var(--font-1);
-    }
-    .nav-btn
-    {
-        display: block;
-    }
-    
-} */
 
