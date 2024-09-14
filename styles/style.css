@@ -1357,3 +1357,33 @@ ul li a:hover
 }
 
 
+@media screen and (max-width: 580px) 
+{
+    .footer-details p
+    {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) 
+{
+    .footer-details p
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) 
+{
+    .footer-details p
+    {
+        font-size: 14px;
+    }
+    .footer-details .scroll-btn
+    {
+        width: 46px;
+        height: 46px;
+    }
+}
+
