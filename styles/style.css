@@ -1366,7 +1366,7 @@ ul li a:hover
     
 }
 
-@media screen and (max-width: 450px) 
+@media screen and (max-width: 500px) 
 {
     .footer-details p
     {
@@ -1378,12 +1378,20 @@ ul li a:hover
 {
     .footer-details p
     {
-        font-size: 14px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 380px) 
+{
+    .footer-details p
+    {
+        font-size: 12px;
     }
     .footer-details .scroll-btn
     {
-        width: 46px;
-        height: 46px;
+        width: 48px;
+        height: 48px;
     }
 }
 
