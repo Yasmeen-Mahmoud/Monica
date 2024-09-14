@@ -2,14 +2,8 @@
 
 document.getElementById("bars").addEventListener("click", () => {
     var navSection = document.getElementById("nav-section");
-    if(navSection.style.display === "block")
-    {
-        navSection.style.display = "none";
-    }
-    else
-    {
-        navSection.style.display = "block";
-    }
+    
+    navSection.classList.toggle("hide");
 });
 
 window.addEventListener("resize", () => {
