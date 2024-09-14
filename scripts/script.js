@@ -1,13 +1,12 @@
 
 
 document.getElementById("bars").addEventListener("click", () => {
-    var navSection = document.getElementById("nav-section");
-    
+    const navSection = document.getElementById("nav-section");
     navSection.classList.toggle("hide");
 });
 
 window.addEventListener("resize", () => {
-    var navSection = document.getElementById("nav-section");
+    const navSection = document.getElementById("nav-section");
     if(window.innerWidth > 900)
     {
         navSection.style.display = "flex";
